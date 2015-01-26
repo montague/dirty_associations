@@ -31,3 +31,10 @@ Check one of the following methods to see if the relation has changed:
    bar.previous_changes # { "foo_ids" => [[5], [42]] }
    bar.foo_ids_changed? # false
    bar.foo_ids_previously_changed? # true
+
+== Contributing
+* cd into ```test/dummy``` and run ```RAILS_ENV=test bundle exec rake db:schema:load```
+* cd to the top level directory of the gem and run ```bundle exec rake```
+* HACK HACK HACK
+* When all tests are passing, submit a PR.
+* Thanks!!
